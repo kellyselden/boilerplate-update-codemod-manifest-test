@@ -1,7 +1,7 @@
 {
   "commands-test-codemod": {
     "version": "0.0.1",
-    "projectTypes": ["test-project", "unused", "asdf"],
+    "projectTypes": ["test-project", "unused"],
     "nodeVersion": "6.0.0",
     "commands": [
       "cpr added-changed.txt added-changed-copy.txt",
