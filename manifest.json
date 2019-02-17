@@ -1,7 +1,7 @@
 {
   "commands-test-codemod": {
     "version": "0.0.1",
-    "projectTypes": ["test-project", "unused"],
+    "projectOptions": ["test-project", "unused"],
     "nodeVersion": "6.0.0",
     "commands": [
       "cpr added-changed.txt added-changed-copy.txt",
@@ -10,7 +10,7 @@
   },
   "script-test-codemod": {
     "version": "0.0.2",
-    "projectTypes": ["test-project"],
+    "projectOptions": ["test-project"],
     "nodeVersion": "8.5.0",
     "script": "const fs = require('fs'); fs.copyFileSync('present-changed.txt', 'present-changed-copy.txt');"
   }
