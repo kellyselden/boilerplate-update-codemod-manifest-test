@@ -1,6 +1,8 @@
 {
   "commands-test-codemod": {
-    "version": "0.0.1",
+    "versions": {
+      "lodash": "3.0.0"
+    },
     "projectOptions": ["test-project", "unused"],
     "nodeVersion": "6.0.0",
     "commands": [
@@ -9,7 +11,9 @@
     ]
   },
   "script-test-codemod": {
-    "version": "0.0.2",
+    "versions": {
+      "lodash": "4.0.0"
+    },
     "projectOptions": ["test-project"],
     "nodeVersion": "8.5.0",
     "script": "const fs = require('fs'); fs.copyFileSync('present-changed.txt', 'present-changed-copy.txt');"
