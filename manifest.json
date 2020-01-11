@@ -1,21 +1,21 @@
 {
   "commands-test-codemod": {
-    "versions": {
+    "versionRanges": {
       "lodash": ">=3.0.0"
     },
     "projectOptions": ["test-project", "unused"],
-    "nodeVersion": ">=6.0.0",
+    "nodeVersionRange": ">=6.0.0",
     "commands": [
       "cpr added-changed.txt added-changed-copy.txt",
       "cpr added-unchanged.txt added-unchanged-copy.txt"
     ]
   },
   "script-test-codemod": {
-    "versions": {
+    "versionRanges": {
       "lodash": ">=4.0.0"
     },
     "projectOptions": ["test-project"],
-    "nodeVersion": ">=10.5.0",
+    "nodeVersionRange": ">=10.5.0",
     "script": "const fs = require('fs'); fs.copyFileSync('present-changed.txt', 'present-changed-copy.txt');"
   }
 }
